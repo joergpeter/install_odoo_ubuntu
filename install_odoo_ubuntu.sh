@@ -42,7 +42,7 @@ WEBSITE_NAME="odoo.mexnet.ch"
 # Set the default Odoo longpolling port (you still have to use -c /etc/odoo-server.conf for example to use this.)
 LONGPOLLING_PORT="8072"
 # Set to "True" to install certbot and have ssl enabled, "False" to use http
-ENABLE_SSL="True"
+ENABLE_SSL="False"
 # Provide Email to register ssl certificate
 ADMIN_EMAIL="odoo@example.com"
 # Set this to True if you want to install ufw
@@ -226,7 +226,7 @@ sudo chmod 640 /etc/${OE_CONFIG}.conf
 #--------------------------------------------------
 
 echo -e "\n========== Create Odoo systemd file ==============="
-cat <<EOF > /lib/systemd/system/$OE_USER.service
+sudo cat <<EOF > /lib/systemd/system/$OE_USER.service
 
 [Unit]
 Description=Odoo Open Source ERP and CRM
