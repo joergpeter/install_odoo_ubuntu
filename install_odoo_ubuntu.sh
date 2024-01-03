@@ -70,7 +70,7 @@ sudo apt autoremove -y
 # Set up the timezones
 #--------------------------------------------------
 # set the correct timezone on ubuntu
-timedatectl set-timezone America/Cancun
+sudo timedatectl set-timezone America/Cancun
 timedatectl
 
 #--------------------------------------------------
