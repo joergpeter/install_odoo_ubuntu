@@ -3,3 +3,6 @@ Thanks to: https://github.com/hrmuwanika/odoo
 
 tbd:
 - Option to install acme.sh with Azure DNS
+
+How to use it:
+wget
