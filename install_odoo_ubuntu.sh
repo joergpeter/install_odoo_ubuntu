@@ -70,7 +70,7 @@ sudo apt autoremove -y
 # Set up the timezones
 #--------------------------------------------------
 # set the correct timezone on ubuntu
-timedatectl set-timezone Africa/Kigali
+timedatectl set-timezone America/Cancun
 timedatectl
 
 #--------------------------------------------------
